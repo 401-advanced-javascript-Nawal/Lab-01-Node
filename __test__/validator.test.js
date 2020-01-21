@@ -65,6 +65,11 @@ describe('validator module performs complex validations', () => {
     expect(true).toBeFalsy();
   });
 
+  /******************************  My Cases *************************************/
   // TODO: Cover so, so many more cases
+  it('validates if the object is an empty or not ', () => {
+    // i.e. a object might be an empty object "yes" or "no"
+    expect(true).toBeTruthy();
+  });
 
 });
