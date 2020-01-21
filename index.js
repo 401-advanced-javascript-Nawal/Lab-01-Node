@@ -10,5 +10,12 @@ const susan = {
     children:[],
   };
 
-validator.isValid();
-validator.isObject(susan);
+ let out = validator.isObject('mai');
+
+console.log('out : ', out);
+ console.log(' typeOf susan : ',  typeof susan.children);
+
+
+ let arr = [];
+ console.log(' typeof arr : ',  typeof arr);
+ 
