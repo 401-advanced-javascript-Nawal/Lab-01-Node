@@ -5,8 +5,8 @@
 ### Author: Nawal Suliman 
 
 ### Links and Resources
-- [submission PR](http://xyz.com)
-- [ci/cd](http://xyz.com) (GitHub Actions)
+- [submission PR](https://github.com/401-advanced-javascript-Nawal/Lab-01-Node/pull/1)
+- [ci/cd](https://github.com/401-advanced-javascript-Nawal/Lab-01-Node/commit/53a1dd66aa5ecd48fe27301c875fe751c9549530/checks?check_suite_id=411276033) (GitHub Actions)
 
 ### Setup
 #### `.env` requirements (where applicable)
@@ -21,4 +21,4 @@ i.e.
 - npm run test
 
 #### UML
-Link to an image of the UML for your application and response to events
+https://github.com/401-advanced-javascript-Nawal/Lab-01-Node/blob/lab-01/public/docs/20200121_063940.jpg
