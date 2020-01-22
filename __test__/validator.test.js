@@ -97,6 +97,17 @@ describe('validator module performs complex validations', () => {
     expect(validator.inputKeys(susan)).toBeTruthy();
   });
   
+  // Array Test
+  it('validates if the Children is an array ', () => {
+    // i.e. a string might only be allowed to be "yes" or "no"
+    const susan = {
+      id:'123-45-6789',
+      name:'Susan McDeveloperson',
+      age: 37,
+      children:[],
+    }; 
+    expect(validator.isArray(susan.children)).toBeTruthy();
+  });
 
   it('validates the types of values contained in an array', () => {
     // i.e. an array of all strings or numbers
@@ -119,5 +130,6 @@ describe('validator module performs complex validations', () => {
     }; 
     expect(validator.emptyArray(susan)).toBeFalsy();
   });
+
  
 });
